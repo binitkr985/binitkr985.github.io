@@ -1,0 +1,43 @@
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background soft shape -->
+  <path opacity="0.15" fill-rule="evenodd" clip-rule="evenodd"
+        d="M5 5a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1H6a1 1 0 0 1 -1 -1V5z"
+        fill="url(#cpu_bg)"/>
+
+  <!-- Outer CPU border -->
+  <path d="M5 5a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1H6a1 1 0 0 1 -1 -1V5z"
+        stroke="url(#cpu_stroke)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner square processor -->
+  <path d="M9 9h6v6h-6z"
+        stroke="url(#cpu_stroke)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Pins -->
+  <path d="M3 10h2" stroke="url(#cpu_stroke)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M3 14h2" stroke="url(#cpu_stroke)" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M21 10h-2" stroke="url(#cpu_stroke)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M21 14h-2" stroke="url(#cpu_stroke)" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M10 3v2" stroke="url(#cpu_stroke)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M14 3v2" stroke="url(#cpu_stroke)" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M14 21v-2" stroke="url(#cpu_stroke)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M10 21v-2" stroke="url(#cpu_stroke)" stroke-width="1.8" stroke-linecap="round"/>
+
+  <defs>
+    <!-- Background gradient (same as your theme) -->
+    <linearGradient id="cpu_bg" x1="2" y1="2" x2="30" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+
+    <!-- Stroke gradient (same as theme) -->
+    <linearGradient id="cpu_stroke" x1="2" y1="0" x2="30" y2="17" gradientUnits="userSpaceOnUse">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BinitKr | Portfolio</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Binit Kumar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Binit Kumar">Binit Kumar</h1>
+          <p class="title">Back-End Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:binitkr9852@gmail.com" class="contact-link">binitkr9852@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+919755235010" class="contact-link">+91 97552-35010</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2007-11-04">November 04, 2007</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Madhya Pradesh, India</address>
+            </div>
+          </li>
+
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Full-Stack Web Developer with a strong focus on backend engineering, currently pursuing my
+            B.Tech in Artificial Intelligence & Machine Learning. I enjoy solving real problems with clean,
+            scalable code and building systems that work reliably behind the scenes.
+          </p>
+
+          <p>
+            Along with web development, I also create Chrome extensions and experiment with AI models,
+            automation tools, and intelligent systems. You could say I'm part developer, part AI engineer —
+            always exploring how to combine software and machine learning in useful, creative ways.
+          </p>
+
+          <p>
+            My goal is to build products that are functional, fast, and user-friendly while still being
+            simple and elegant. Whether it's a backend API, a full-stack web app, or an AI-powered tool,
+            I aim to deliver high-quality solutions that make life easier for users.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="backend icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+                <p class="service-item-text">
+                  Building fast, secure and scalable backend systems, APIs, and automation workflows.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="full stack icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-Stack Web Apps</h4>
+                <p class="service-item-text">
+                  End-to-End development of modern, responsive, and high performance web applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-extension.svg" alt="chrome extension icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Chrome Extensions</h4>
+                <p class="service-item-text">
+                  Powerful and lightweight Chrome extensions that automate tasks and enhance productivity.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ai.svg" alt="ai icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & ML Development</h4>
+                <p class="service-item-text">
+                  Developing AI-driven tools, LLM integrations, and intelligent automation systems.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Logan Roberge" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Logan Roberge</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I've worked with him for several years, and the experience has been outstanding. He developed
+                    multiple Discord bots for my projects at a very reasonable cost, and the results were always
+                    impressive. What stood out the most was his commitment to ongoing support.. upgrades, fixes,
+                    and new features were delivered quickly and reliably every time. A truly dependable developer
+                    who goes above and beyond.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Lia" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Lia</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with him has been one of the smoothest experiences I've had with a developer. He understood
+                    exactly what I needed, offered smart suggestions, and delivered everything faster than expected.
+                    Even after the project was completed, he continued to help with improvements and updates without
+                    any issues. His dedication and reliability truly stand out. I'd happily work with him again.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Logan Roberge" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Logan Roberge</h4>
+              <div data-modal-text>
+                <p>
+                  I've worked with him for several years, and the experience has been outstanding. He developed
+                  multiple Discord bots for my projects at a very reasonable cost, and the results were always
+                  impressive. What stood out the most was his commitment to ongoing support.. upgrades, fixes,
+                  and new features were delivered quickly and reliably every time. A truly dependable developer
+                  who goes above and beyond.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!---
+        <section class="clients">
+          <h3 class="h3 clients-title">Clients</h3>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> --->
+
+      </article>
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Rajiv Gandhi Proudyogiki Vishwavidyalaya (R.G.P.V)</h4>
+              <span>2024 — 2028</span>
+              <p class="timeline-text">
+                Bachelor of Engineering <br>
+                Major: Artificial Intelligence & Machine Learning <br>
+                Cumulative GPA: 6.24/10
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">St. Lawrence Academy</h4>
+              <span>2022 — 2024</span>
+              <p class="timeline-text">
+                Higher Secondary (CBSE)<br>
+                Major: Science with Mathematics<br>
+                Cumulative GPA: 6.7/10
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Freelance Web Developer</h4>
+              <span>Apr 2021 — Present</span>
+              <div class="timeline-text" style="line-height: 1.6; margin-top: 8px;">
+                <p style="margin-bottom: 10px;">
+                  Working as a freelance web developer creating websites and small-scale web applications for clients,
+                  focusing on clean design, responsiveness, and solid frontend functionality.
+                </p>
+
+                <ul style="margin: 0; padding-left: 20px; list-style: disc;">
+                  <li style="margin-bottom: 6px;">Built custom websites using HTML, CSS, JavaScript, and modern UI
+                    practices.</li>
+                  <li style="margin-bottom: 6px;">Developed responsive layouts optimized for phones, tablets, and
+                    desktops.</li>
+                  <li style="margin-bottom: 6px;">Created landing pages, personal portfolios, and small business
+                    websites.</li>
+                  <li style="margin-bottom: 6px;">Collaborated with clients to understand requirements and deliver
+                    updates quickly.</li>
+                  <li style="margin-bottom: 6px;">Handled hosting setup, deployment, and basic SEO improvements.</li>
+                </ul>
+              </div>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">ApexPlanet Internship</h4>
+
+              <span>Oct 21, 2025 — Dec 04, 2025</span>
+
+              <div class="timeline-text" style="line-height: 1.6; margin-top: 8px;">
+                <p style="margin-bottom: 10px;">
+                  Completed a 45-day Web Development internship focused on building UI components,
+                  improving webpage structure, and learning frontend fundamentals.
+                </p>
+
+                <ul style="margin: 0; padding-left: 20px; list-style: disc;">
+                  <li style="margin-bottom: 6px;">Created responsive webpages using HTML, CSS, and JavaScript.</li>
+                  <li style="margin-bottom: 6px;">Designed and styled layouts with proper spacing and color schemes.
+                  </li>
+                  <li style="margin-bottom: 6px;">Implemented basic interactive elements using JavaScript events.</li>
+                  <li style="margin-bottom: 6px;">Organized assets and improved page structure for readability.</li>
+                  <li style="margin-bottom: 6px;">Learned Git basics and pushed project updates to GitHub.</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Backend Architecture & APIs</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript (ES6+)</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js & Express</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB / Mongoose</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Database Design</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">DevOps Basics (Linux, Git, Deployments)</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Extensions</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Extensions</button>
+              </li>
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <!-- <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li> -->
+          </ul>
+
+        </section>
+      </article>
+
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+
+            <!-- <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li> -->
+
+          </ul>
+        </section>
+      </article>
+
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14676.324131506436!2d77.3890972!3d23.2599334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c426fa5e3e4fb%3A0x885f4e2e5a04b29c!2sBhopal%2C%20Madhya%20Pradesh%2C%20India!5e0!3m2!1sen!2sin!4v1700000000000"
+              width="400"
+               height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
